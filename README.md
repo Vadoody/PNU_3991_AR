@@ -10,7 +10,7 @@
 - [Resume](https://Vadoody.github.io/resume/) 
 - [SOP](https://Vadoody.github.io/SOP/)
 - [GitHub](https://github.com/Vadoody)
-- [Certificate](https://github.com/Vadoody/Proof-javascript-certificate/blob/main/java%20script%20license.jpeg)
+- [Certificate](https://github.com/Vadoody/PNU_3991_AR/blob/main/Java.jpg?raw=true)
 - [jlord patchwork](patchwork.jpg)
 
 --------------------

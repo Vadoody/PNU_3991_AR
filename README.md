@@ -7,7 +7,7 @@
 ---------------------
  ### فاطمه ودودی
 - [PNU_3991_AR](https://github.com/Vadoody/PNU_3991_AR)
-- [Resume](https://Vadoody.github.io/resume/) 
+- [Resume](https://Vadoody.github.io/) 
 - [SOP](https://Vadoody.github.io/SOP/)
 - [GitHub](https://github.com/Vadoody)
 - [Certificate](https://github.com/Vadoody/PNU_3991_AR/blob/main/Java.jpg?raw=true)

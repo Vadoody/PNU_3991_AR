@@ -8,6 +8,7 @@
  ### فاطمه ودودی
 - [PNU_3991_AR](https://github.com/Vadoody/PNU_3991_AR)
 - [Resume](https://vadoody.github.io/Resume/) 
+- [En_Resume](https://github.com/Vadoody/Resume/blob/main/CV_En.md) 
 - [SOP](https://Vadoody.github.io/SOP/)
 - [GitHub](https://github.com/Vadoody)
 - [Certificate](https://github.com/Vadoody/PNU_3991_AR/blob/main/Java.jpg?raw=true)
@@ -18,11 +19,18 @@
 > ارزیابی ها
 
 ##  بخش عمومی
-- [ارزیابی رزومه و انگیزه نامه](MK_CV_CheckList_AR_3991.pdf)
-- [خلاصه ارزیابی بخش عمومی](MK_GeneralSection_CheckList_AR_3991.pdf)
+- [ارزیابی رزومه و انگیزه نامه](https://github.com/Vadoody/PNU_3991_AR/blob/main/General/FV_CV_CheckList_AR_3991.pdf)
+- [خلاصه ارزیابی بخش عمومی](https://github.com/Vadoody/PNU_3991_AR/blob/main/General/FV_GeneralSection_CheckList_AR_3991.pdf)
 
 ##  بخش دروس کارشناسی
-- [خلاصه ارزیابی درس نظریه زبان و ماشین](https://github.com/mir-mohammad/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/MK_Theory-of-Languages-and-Machines_CheckList_AR_3991.pdf)
+- [خلاصه ارزیابی درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/FV_Theory-of-Languages-and-Machines_CheckList_AR_3991.pdf)
+
+--------------------
+
+# ارائه شفاهی
+- [ارائه شفاهی فصل 7 درس نظریه زبان و ماشین]()
+
+- [ارائه شفاهی مثال درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/Example%2014-5%20%2C%20Page%20621(Fatemeh%20Vadoody%20949737463).mp3)
 
 --------------------
 

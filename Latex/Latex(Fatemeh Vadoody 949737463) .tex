@@ -1,0 +1,255 @@
+	
+\documentclass[a4]{article}
+\usepackage{multicol}
+\usepackage{graphicx}
+\linespread{1.35}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{xcolor,colortbl}
+\usetikzlibrary{arrows,automata} 
+
+
+
+\begin{document}
+	
+	
+	
+	\newpage
+	
+	\vspace*{1cm}
+	\begin{center}
+		
+		{\Huge{\textbf{\textit{$**$ In The Name OF God  $**$}}}}\vspace*{3cm}
+		
+		
+		{\huge{\textbf{\textit{Latex : 621-624}}}}\vspace*{1cm}
+		
+		
+		{\huge{\textbf{\textit{F.Vadoody}}}}\vspace*{1cm}
+		
+		
+		{\huge{\textbf{\textit{Student ID : 949737463}}}}	\vspace*{1cm}
+		
+		{\huge{\textbf{\textit{Computer Engineering Student}}}}	\vspace*{0.9cm}
+		
+		{\huge{\textbf{\textit{Majoring In Information Technology}}}}	\vspace*{1cm}
+		
+		{\huge{\textbf{\textit{Payame Noor University of Tehran, Pardis New City Branch}}}}	\vspace*{1cm}
+		
+		
+	\end{center}
+	\vspace*{0.2cm}
+	
+	\newpage
+	\begin{flushright}
+		\textcolor{blue}{\hspace*{0.5cm} \texttt{I Advance Topics Related to Automata} \hspace*{0.1cm}\textbf{$|$} \textbf{621}}
+	\end{flushright}
+	
+	\vspace*{0.5cm}
+	
+	
+	Now take a sequence 1001. Let us construct the sequence to $\mathrm{t}_{3}$ using wrap around and null stufﬁng technique.
+	\vspace*{0.2cm}\\
+	\large{\textbf{\textit{Wrap Around:}}}
+	
+	\begin{center}
+		\begin{tabular}{lllll}
+			\hline
+			$\mathrm{t}_{0}$\hspace*{0.7cm}& 1\hspace*{0.7cm} & 0\hspace*{0.7cm} & 0\hspace*{0.7cm} & 1 \\
+			$\mathrm{t}_{1}$ & 1 & 1 & 1 & 0 \\
+			$\mathrm{t}_{2}$ & 0 & 1 & 1 & 0 \\
+			$\mathrm{t}_{3}$ & 1 & 0 & 1 & 1 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\vspace*{0.2cm}
+	The cells representation are given below 
+	\vspace*{0.2cm}
+	
+	\begin{center}
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			\cellcolor{black!40}\hspace*{0.9cm}&\hspace*{0.9cm} &\hspace*{0.9cm}&\cellcolor{black!40}\hspace*{0.9cm}\\
+			\hline\cellcolor{black!40}&\cellcolor{black!40}& \cellcolor{black!40}&\\
+			\hline&\cellcolor{black!40}&\cellcolor{black!40}& \\
+			\hline\cellcolor{black!40}& &\cellcolor{black!40}&\cellcolor{black!40} \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\vspace*{0.2cm}\\
+	\large{\textbf{\textit{Null Stuffed:}}}
+	
+	In null stuffed two '0' are added at both sides of the original string.
+	\vspace*{0.2cm}
+	
+	\begin{center}
+		\begin{tabular}{ccccccc}
+			\hline 
+			$\mathrm{t}_{0}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+			$\mathrm{t}_{1}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\\
+			$\mathrm{t}_{2}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+			$\mathrm{t}_{3}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\vspace*{0.2cm}
+	The cells representation are given below
+	
+	\begin{center}
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			\cellcolor{black!40}\hspace*{0.9cm}& \hspace*{0.9cm}&\hspace*{0.9cm}&\cellcolor{black!40}\hspace*{0.9cm}\\
+			\hline&\cellcolor{black!40}&\cellcolor{black!40}&\\
+			\hline\cellcolor{black!40}& &\cellcolor{black!40}&\cellcolor{black!40}\\
+			\hline& & &\cellcolor{black!40}\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\vspace*{0.2cm}
+	
+	
+	\fcolorbox{red}{yellow}{\textbf{Example 14.5 :}}\hspace*{0.1cm} \texttt{Find the update of a one-dimensional CA rules for $212 .$}
+	\vspace*{0.2cm}\\
+	\large{\textbf{\textit{{Solution:}}}
+	\vspace*{0.2cm}
+	
+    The binary equivalent of 212 is $11010100 .$
+    The rules are 
+    
+    \vspace*{0.3cm} 
+    \begin{center}
+    	\begin{tabular}{lcccccccc}
+    		\hline Decimal & 7 & 6 & 5 & 4 & 3 & 2 & 1 & 0 \\
+    		Binary & 111 & 110 & 101 & 100 & 011 & 010 & 001 & 000 \\
+    		212 & 1 & 1 & 0 & 1 & 0 & 1 & 0 & 0 \\
+    	\hline
+  	  \end{tabular}
+    \end{center}
+
+	\newpage
+	\begin{flushleft}
+		\textcolor{blue}{\textbf{622}\hspace*{0.1cm} \textbf{$|$} \hspace*{0.1cm} \texttt{Introduction to Automata Theory, Formal Languages and Computation}}
+	\end{flushleft}
+	\vspace*{0.5cm}
+	\begin{flushleft}
+		{\Large{\underline{\textbf{14.3.2 Applications of Cellular Automata}}}}
+	\end{flushleft}
+
+	\vspace*{0.5cm}
+	Cellular automata is not only used in Computer Science field, it  also has different applications in other fields.
+	\vspace*{0.2cm}\\
+	\large{\textbf{\textit{In the Field of Computer Science}}}
+	\vspace*{0.2cm}
+		
+	\begin{itemize}
+		\item Cryptography\vspace*{0.1cm}
+		\item Detecting fault tolerance in digital circuit\vspace*{0.1cm}
+		\item Simulation of complex system\vspace*{0.1cm}
+	\end{itemize}
+	\vspace*{0.2cm}\\
+	\large{\textbf{\textit{Beyond the Field of Computer Science}}}
+	\vspace*{0.2cm}
+	
+	\begin{itemize}
+		\item Simulation of gas behavior\vspace*{0.1cm}
+		\item Simulation of forest fire propagation\vspace*{0.1cm}
+		\item Simulation of bone erosion.\vspace*{0.1cm}
+	\end{itemize}
+	Cellular automata are used to identify fault in some digital circuits. 
+	Let consider an OR gate\\ 
+	Its truth table is\\
+	
+	\vspace*{0.5cm}
+
+	\begin{center}
+		\begin{tabular}{ccc}
+			\hline
+			\centering
+			$\mathrm{X}$ & $\mathrm{Y}$ & $\mathrm{O} / \mathrm{P}$ \\
+			\hline 0 & 0 & 0 \\
+			0 & 1 & 1 \\
+			1 & 0 & 1 \\
+			1 & 1 & 1 \\
+			\hline
+		\end{tabular}
+	\end{center}
+
+	\vspace*{0.5cm}
+	
+	It may happen that the input $Y$ is faulty. It takes ' 1 ' for any input applied to it. Thus the output that we get will always be ' 1 '. This is called 'Struck at 1 '. Similarly the problem 'Struck at 0 ' can occur for a digital circuit.
+	\vspace*{0.5cm}\\
+	\large{\textbf{\textit{{Rule 192 :}}}
+    Binary of 192 is 11000000 
+
+	The rule is
+	\vspace*{0.2cm}
+	\begin{center}
+		\begin{tabular}{ccccccccc}
+			\hline & 7 & 6 & 5 & 4 & 3 & 2 & 1 & 0 \\
+			& 111 & 110 & 101 & 100 & 011 & 010 & 001 & 000 \\
+			192 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\vspace*{0.5cm}\\
+	Let the initial sequence is 1111 .\\
+	By null stuffing at both sides the sequence become 011110 .\\
+	So
+	\vspace*{0.2cm}
+	\begin{center}
+		\begin{tabular}{ccccccc}
+			\hline
+			$\mathrm{t}_{0}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+			\hline
+			\hline
+			$\mathrm{t}_{0}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+			\hline
+		\end{tabular} 
+	\end{center}
+	
+	\newpage	
+	\begin{flushright}
+		\textcolor{blue}{\hspace*{0.5cm} \texttt{I Advance Topics Related to Automata} \hspace*{0.1cm}\textbf{$|$} \textbf{623}}
+	\end{flushright}
+
+	\vspace*{0.5cm}	
+	Let it $t_{0}$ the bits are labeled as $S_{0}, S_{1}, S_{2} \ldots \ldots . S_{5}$ .\\
+	State $\mathbf{S}_{1}$ in $\mathrm{t}_{1}$ depends on $\mathbf{S}_{0}, \mathbf{S}_{1}$ and $\mathbf{S}_{2}$ of $\mathbf{t}_{0}$.\\
+	The bit pattern is 011 , so the value of $\mathbf{S}_{1}$ in $\mathbf{t}_{1}$ is 0 (according to rule 192 ). By the same way all the other bits are placed. By the same way the patterns for $\mathrm{t}_{2}$ and $\mathrm{t}_{3}$ are generated.
+	 
+	 
+	 \vspace*{0.5cm}
+	 \begin{center}
+	 	\begin{tabular}{ccccccc}
+	 		\hline
+	 		$\mathrm{t}_{2}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+	 		\hline
+	 		\hline
+	 		$\mathrm{t}_{3}$\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 0\hspace*{0.7cm}& 1\hspace*{0.7cm}& 0\\
+	 		\hline
+	 	\end{tabular} 
+	 \end{center}
+ 
+ 
+	\vspace*{0.6cm}	
+
+	Let a digital circuit has four inputs.\\
+	To identify the ' Struck at 0 ' problem all bits are taken as ' $1$ ' and patterns are generated for next (n-1) steps, where n is the number of input line. If the LSB is other than ' $1$ ' in $t_{n-1}$ step then we can say that the circuit is faulty.
+	
+	\vspace*{0.9cm}
+	
+	\newpage
+	\begin{flushleft}
+		\textcolor{blue}{\textbf{624}\hspace*{0.1cm} \textbf{$|$} \hspace*{0.1cm} \texttt{Introduction to Automata Theory, Formal Languages and Computation}}
+	\end{flushleft}
+	\vspace*{8cm}
+	\begin{center}
+	 {\LARGE{\textbf{\textit{This page is intentionally left blank.}}}}
+	\end{center}
+	\vspace*{8cm}
+	
+\end{document}

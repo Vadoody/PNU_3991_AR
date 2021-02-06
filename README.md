@@ -28,9 +28,14 @@
 --------------------
 
 # ارائه شفاهی
-- [ارائه شفاهی فصل 7 درس نظریه زبان و ماشین]()
 
-- [ارائه شفاهی مثال درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/Example%2014-5%20%2C%20Page%20621(Fatemeh%20Vadoody%20949737463).mp3)
+- ارائه شفاهی فصل 7 درس نظریه زبان و ماشین
+
+    [بخش اول](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/TLM%2007_01(Fatemeh%20Vadoody%20949737463).rar)
+
+    [بخش دوم](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/TLM%2007_02(Fatemeh%20Vadoody%20949737463).rar)
+
+- [ارائه شفاهی مثال درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/Example%2014-5%20%2C%20Page%20621(Fatemeh%20Vadoody%20949737463).rar)
 
 --------------------
 

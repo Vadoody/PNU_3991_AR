@@ -29,7 +29,7 @@
 
 # ارائه شفاهی
 
-- ارائه شفاهی فصل 7 درس نظریه زبان و ماشین
+- [ارائه شفاهی فصل 7 درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/tree/main/Theory-of-Languages-and-Machines)
 
     [بخش اول](https://github.com/Vadoody/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/TLM%2007_01(Fatemeh%20Vadoody%20949737463).rar)
 

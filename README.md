@@ -27,6 +27,12 @@
 
 --------------------
 
+# پروژه 
+
+- [پروژه درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/tree/main/Theory-of-Languages-and-Machines/Project)
+
+--------------------
+
 # ارائه شفاهی
 
 - [ارائه شفاهی فصل 7 درس نظریه زبان و ماشین](https://github.com/Vadoody/PNU_3991_AR/tree/main/Theory-of-Languages-and-Machines)
